@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvActividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de actividades"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnRegresar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="18sp"
+
+        />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/Natacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:checkable="true"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_swim"
+                android:contentDescription="Natación"
+                android:layout_marginEnd="16dp"
+                android:background="@color/cardview_shadow_end_color"
+                />
+
+            <TextView
+                android:id="@+id/NatacionTexto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Natación" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/Comida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:checkable="true"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_food"
+                android:contentDescription="Comida"
+                android:layout_marginEnd="16dp"
+                android:background="@color/cardview_light_background"
+
+                />
+
+            <TextView
+                android:id="@+id/ComidaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comida" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/Gym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:checkable="true"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_swim"
+                android:contentDescription="Gym"
+                android:layout_marginEnd="16dp"
+                android:background="@color/cardview_shadow_end_color"
+                />
+
+            <TextView
+                android:id="@+id/GymTexto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>
